@@ -1,0 +1,37 @@
+@import '../../shared/variables/colors'
+
+
+.header
+  background-color: $primary-color
+
+
+.inner
+  display: flex
+  padding: 50px 20px 0
+  margin: 0 auto
+
+
+.siteLogo
+  width: 100px
+  height: 100px
+  border-radius: 50%
+  background:
+    color: $brand-color
+    image: url('../../../logo.jpg')
+    size: cover
+    repeat: no-repeat
+
+
+.nav
+  margin-left: auto
+
+
+.navItem
+  margin: 0 20px
+  padding-bottom: 10px
+  font-weight: 400
+  line-height: 24px
+  color: $primary-text-color
+
+  &:hover
+    border-bottom: 4px solid $brand-color
