@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
-import Header from './Header/Header.js';
 import styles from './index.module.sass';
 
 
@@ -21,7 +20,6 @@ const TemplateWrapper = ({ children }) => (
                         href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
                     }]}
         />
-        <Header />
         <div>
             { children() }
         </div>
