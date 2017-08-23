@@ -1,24 +1,16 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import styles from './Hero.module.sass';
 
 
 const Hero = () => (
-    <section className={styles.hero}>
+    <section className={styles.root}>
         <div className={styles.inner}>
-            <div className={styles.tagline}>
-                <h1><span className={styles.headingLight}>I'm</span><br/><span className={styles.headingBold}>Doan Thieu</span></h1>
-                <p className={styles.subheading}>A self-taught Web Developer based in Vietnam</p>
-                <ul className={styles.socialList}>
-                    <li className={styles.social}>
-                        <a href='https://github.com/Thieurom'><i className='fa fa-github'></i></a>
-                    </li>
-                    <li className={styles.social}>
-                        <a href='https://codepen.io/thieurom'><i className='fa fa-codepen'></i></a>
-                    </li>
-                    <li className={styles.social}>
-                        <a href='https://twitter.com/lethieu'><i className='fa fa-twitter'></i></a>
-                    </li>
-                </ul>
+            <div className={styles.content}>
+                <h1>Hi! I'm Doan Thieu.</h1>
+                <p className={styles.subheading}>I'm a self-taught Web Developer, living in Hanoi - Vietnam.</p>
+                <p className={styles.subheading}>I'm interested in both front-end and back-end web development. I can write HTML, CSS, JavaScript, Ruby and use Sass, React, Express, Mongo, Ruby on Rails, Postgres.</p>
+                <p className={styles.subheading}>More about me, let's see what I <Link to='/learn' className={styles.link}>learn</Link>, <Link to='/create' className={styles.link}>create</Link>, <Link to='/reflect' className={styles.link}>reflect</Link>.</p>
             </div>
         </div>
     </section>
