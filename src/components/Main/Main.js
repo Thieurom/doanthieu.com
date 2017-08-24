@@ -15,7 +15,41 @@ const Main = () => (
                         <span className={styles.subheading}>freeCodeCamp</span>
                     </div>
                     <p className={styles.body}>freeCodeCamp (also referred to as “Free Code Camp”) is a nonprofit organization that consists of an interactive learning web platform, an online community forum, chat rooms, Medium publications, and local organizations that intend to make learning web development accessible to anyone.</p>
-                    <p className={styles.body}>This program requires building 10 dynamic web applications, which involves setup web server, database, API, authentication, hosting, ...</p>
+                    <p className={styles.body}>This program requires building 10 dynamic web applications, which involves setup web server, database, API, authentication, ... Apps deployed on Heroku, source code hosted on Github.</p>
+                    <div className={styles.projectList}>
+                        <div className={styles.project}>
+                            <figure className={styles.figure}>
+                                <img className={styles.image} src='http://via.placeholder.com/1000x600?text=Project+Image' alt='Project' />
+                            </figure>
+                            <div className={styles.description}>
+                                <div className={styles.title}>Nitex - Nightlife Coordination App</div>
+                            </div>
+                        </div>
+                        <div className={styles.project}>
+                            <figure className={styles.figure}>
+                                <img className={styles.image} src='http://via.placeholder.com/1000x600?text=Project+Image' alt='Project' />
+                            </figure>
+                            <div className={styles.description}>
+                                <div>LookStocks - Stock Market Chart</div>
+                            </div>
+                        </div>
+                        <div className={styles.project}>
+                            <figure className={styles.figure}>
+                                <img className={styles.image} src='http://via.placeholder.com/1000x600?text=Project+Image' alt='Project' />
+                            </figure>
+                            <div className={styles.description}>
+                                <div>Buuktreid - Book Trading Club</div>
+                            </div>
+                        </div>
+                        <div className={styles.project}>
+                            <figure className={styles.figure}>
+                                <img className={styles.image} src='http://via.placeholder.com/1000x600?text=Project+Image' alt='Project' />
+                            </figure>
+                            <div className={styles.description}>
+                                <div>FotonBord - Pinterest Clone</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -43,6 +77,40 @@ const Main = () => (
                         <span className={styles.subheading}>freeCodeCamp</span>
                     </div>
                     <p className={styles.body}>This program requires building 10 front end projects, from static pages (HTML and CSS only) to more complex and highly-interactive ones like games, consuming third-party API apps, ... All code hosted on Codepen.io.</p>
+                    <div className={styles.projectList}>
+                        <div className={styles.project}>
+                            <figure className={styles.figure}>
+                                <img className={styles.image} src='http://via.placeholder.com/1000x600?text=Project+Image' alt='Project' />
+                            </figure>
+                            <div className={styles.description}>
+                                <div>JavaScript Calculator</div>
+                            </div>
+                        </div>
+                        <div className={styles.project}>
+                            <figure className={styles.figure}>
+                                <img className={styles.image} src='http://via.placeholder.com/1000x600?text=Project+Image' alt='Project' />
+                            </figure>
+                            <div className={styles.description}>
+                                <div>Weather App</div>
+                            </div>
+                        </div>
+                        <div className={styles.project}>
+                            <figure className={styles.figure}>
+                                <img className={styles.image} src='http://via.placeholder.com/1000x600?text=Project+Image' alt='Project' />
+                            </figure>
+                            <div className={styles.description}>
+                                <div>TicTacToe</div>
+                            </div>
+                        </div>
+                        <div className={styles.project}>
+                            <figure className={styles.figure}>
+                                <img className={styles.image} src='http://via.placeholder.com/1000x600?text=Project+Image' alt='Project' />
+                            </figure>
+                            <div className={styles.description}>
+                                <div>Wikiviewer</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
