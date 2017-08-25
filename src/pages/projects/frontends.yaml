@@ -1,0 +1,35 @@
+- name: JavaScript Calculator
+  stacks:
+    - Pug
+    - Sass
+    - ES6
+  image: http://via.placeholder.com/1000x600?text=Project+Image
+  links:
+    - codepen: https://codepen.io/thieurom/pen/zKLqQg
+
+- name: Weather App
+  stacks:
+    - Pug
+    - Sass
+    - ES6
+  image: http://via.placeholder.com/1000x600?text=Project+Image
+  links:
+    - codepen: https://codepen.io/thieurom/pen/LkampO 
+
+- name: TicTacToe
+  stacks:
+    - Pug
+    - Sass
+    - ES6
+  image: http://via.placeholder.com/1000x600?text=Project+Image
+  links:
+    - codepen: https://codepen.io/thieurom/pen/zoYQJP
+
+- name: Wikiviewer
+  stacks:
+    - Pug
+    - Sass
+    - ES6
+  image: http://via.placeholder.com/1000x600?text=Project+Image
+  links:
+    - codepen: https://codepen.io/thieurom/pen/NAVdPg

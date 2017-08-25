@@ -1,0 +1,35 @@
+- name: Nitex - Nightlife Coordination App
+  stacks:
+    - NodeJS/ExpressJS
+    - MongoDB
+  image: http://via.placeholder.com/1000x600?text=Project+Image
+  links:
+    - github: https://github.com/Thieurom/fcc-nitex
+    - site: https://nitex.herokuapp.com
+
+- name: LookStocks - Stock Market Chart
+  stacks:
+    - NodeJS/ExpressJS
+    - SocketIO
+  image: http://via.placeholder.com/1000x600?text=Project+Image
+  links:
+    - github: https://github.com/Thieurom/fcc-lookstock
+    - site: https://lookstock.herokuapp.com
+
+- name: Buuktreid - Book Trading Club
+  stacks:
+    - Ruby on Rails
+    - PostgreSQL
+  image: http://via.placeholder.com/1000x600?text=Project+Image
+  links:
+    - github: https://github.com/Thieurom/fcc-buuktreid
+    - site: https://buuktreid.herokuapp.com
+
+- name: FotonBord - Pinterest Clone
+  stacks:
+    - Ruby on Rails
+    - PostgreSQL
+  image: http://via.placeholder.com/1000x600?text=Project+Image
+  links:
+    - github: https://github.com/Thieurom/fcc-fotonbord
+    - site: https://fotonbord.herokuapp.com
