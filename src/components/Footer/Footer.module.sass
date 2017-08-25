@@ -7,8 +7,8 @@
 
 
 .inner
-  max-width: 700px
-  padding-left: 140px
+  max-width: 860px
+  padding-left: 20px
   padding-right: 20px
   margin: 0 auto
 
@@ -18,14 +18,16 @@
   padding-top: 20px
   padding-bottom: 40px
   border-top: 1px solid $secondary-color
+  margin-left: 0
+
+  @media (min-width: 580px)
+    margin-left: 100px
+
+  @media (min-width: 680px)
+    margin-left: 160px
 
 
-.footText
-  flex: 1
-  margin: 0
-
-
-.socialList
+.list
   flex: 1
   list-style-type: none
   padding: 0
@@ -33,7 +35,17 @@
   margin-left: auto
 
 
-.social
+.listItem
   display: block
   margin-right: 20px
+  line-height: 1.5
   font-weight: 400
+
+
+.link
+  text-decoration: underline
+  transition: all 0.2s
+
+  &:hover
+    text-decoration: none
+    color: $brand-color
