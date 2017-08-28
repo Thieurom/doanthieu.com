@@ -2,8 +2,7 @@
 
 
 .root
-  background: linear-gradient(to right, $brand-color, rgba($brand-color, 0.8))
-
+  border-bottom: 1px solid $secondary-color
 
 .inner
   max-width: 860px
@@ -15,28 +14,44 @@
   display: flex
   padding-top: 60px
   padding-bottom: 20px
-  color: #fff
 
 
 .home
-  margin-right: 60px
+  margin-right: 20px
+
+  @media (min-width: 680px)
+    margin-right: 60px
 
 
 .nav
   display: flex
   flex-direction: column
+  justify-content: center
+  white-space: nowrap
+  overflow-x: hidden
 
 
 .current
-  margin-left: -4px
+  margin-left: -2px
   text-transform: uppercase
   text-align: left
 
+  @media (min-width: 580px)
+    margin-left: -4px
 
-.links
-  list-type-style: none
+
+.list
+  list-style-type: none
+  display: none
   padding: 0
   margin: auto 0 0
+
+  @media (min-width: 380px)
+    display: block
+
+
+.listItem
+  display: inline-block
 
 
 .link
@@ -45,15 +60,15 @@
   font-weight: 400
   line-height: 1.25
   text-transform: uppercase
-  color: rgba(255,255,255,0.4)
   transition: all 0.25s
+  color: $secondary-text-color
 
   &:hover
-    color: rgba(255,255,255,0.8)
+    color: $primary-text-color
 
 
 .activeLink
-  color: rgba(255,255,255,0.8)
+  color: $primary-text-color
 
 
 .siteLogo

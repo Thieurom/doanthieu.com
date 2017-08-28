@@ -7,19 +7,31 @@
   margin: 0 auto
 
 
-.section
+.mainSection
   display: flex
-  padding-top: 120px
+  flex-direction: column
+  padding-top: 60px
   padding-bottom: 60px
   color: $primary-text-color
 
   &:not(:last-child)
     border-bottom: 1px solid $secondary-color
 
+  @media (min-width: 680px)
+    flex-direction: row
+
+
+.subSection
+  &:not(:last-child)
+    margin-bottom: 40px
+
 
 .aside
-  flex: 0 0 100px
   margin-right: 60px
+
+  @media (min-width: 680px)
+    flex: 0 0 100px
+    text-align: center
 
 
 .main
@@ -39,25 +51,11 @@
   line-height: 1.5
 
 
-.projectList
-  display: flex
-  flex-wrap: wrap
-  margin-top: 40px
-
-
-.project
-  position: relative
-  width: 49%
-  margin-left: 1%
-  margin-right: 1%
-  margin-bottom: 2%
-  cursor: pointer
-
-  &:nth-of-type(2n + 1)
-    margin-left: 0
-
-  &:nth-of-type(2n)
-    margin-right: 0
+.cert
+  display: block
+  width: 100%
+  height: auto
+  margin-top: 20px
 
 
 .figure
