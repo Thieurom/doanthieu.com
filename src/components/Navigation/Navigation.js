@@ -4,7 +4,7 @@ import Logo from '../Logo/Logo';
 import styles from './Navigation.module.sass';
 
 
-const Navigation = () => (
+const Navigation = ({ activeLocation }) => (
     <nav className={styles.root}>
         <div className={styles.inner}>
             <div className={styles.content}>
@@ -13,7 +13,7 @@ const Navigation = () => (
                 </div>
                 <div className={styles.nav}>
                     <div className={styles.current}>
-                        <h2>Learn</h2>
+                        <h2>{activeLocation.substr(1)}</h2>
                     </div>
                     <ul className={styles.list}>
                         <li className={styles.listItem}>
