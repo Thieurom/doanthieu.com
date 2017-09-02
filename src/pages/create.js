@@ -24,8 +24,7 @@ const CreatePage = ({ location }) => (
                         <img src='http://via.placeholder.com/1200x800?text=Screenshot' />
                     </PageContentBlock>
                     <PageContentBlock>
-                        <p>This is my first project. And yes, you're watching (or reading) it right now! </p>
-                        <p>I created this using <a href='https://www.gatsbyjs.org'>Gatsby</a> - a static site generator for React.</p>
+                        <p>My personal website. Made using <a href='https://www.gatsbyjs.org'>Gatsby</a> - a static site generator for React.</p>
                     </PageContentBlock>
                 </PageContentMain>
             </PageContentItem>

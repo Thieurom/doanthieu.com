@@ -27,7 +27,7 @@ class Nav extends Component {
         }
     }
 
-    componentWillMount() {
+    componentDidMount() {
         this.mediaQueryList = window.matchMedia('(min-width: 580px)');
         this.mediaQueryList.addListener(this.onMatch);
     }

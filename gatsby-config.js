@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `Gatsby Default Starter`
+        title: `Doan Thieu`
     },
     plugins: [
         {
@@ -11,6 +11,21 @@ module.exports = {
             }
         },
         `gatsby-transformer-yaml`,
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 700
+                        }
+                    },
+                    `gatsby-remark-prismjs`,
+                    `gatsby-remark-copy-linked-files`
+                ]
+            }
+        },
         `gatsby-plugin-sass`
     ]
 };
