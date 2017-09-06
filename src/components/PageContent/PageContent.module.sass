@@ -2,14 +2,15 @@
 
 
 .inner
-  max-width: 860px
+  max-width: 700px
   padding: 0 20px
   margin: 0 auto
 
+  @media (min-width: 680px)
+    padding-left: 180px
+
 
 .contentItem
-  display: flex
-  flex-direction: column
   padding-top: 60px
   padding-bottom: 60px
   color: $primary-text-color
@@ -28,16 +29,3 @@
 
   &:not(:last-child)
     margin-bottom: 40px
-
-
-.contentMain
-  @media (min-width: 680px)
-    width: calc(100% - 160px)
-
-
-.contentSub
-  margin-right: 60px
-
-  @media (min-width: 680px)
-    flex: 0 0 100px
-    text-align: center

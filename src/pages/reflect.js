@@ -2,8 +2,6 @@ import React from 'react';
 import Navigation from '../components/Navigation/Navigation';
 import PageContentWrapper, {
     PageContentItem,
-    PageContentSub,
-    PageContentMain,
     PageContentBlock
 } from '../components/PageContent/PageContent';
 
@@ -15,14 +13,11 @@ const ReflectPage = ({ location, data }) => {
             <PageContentWrapper>
                 {data.allMarkdownRemark.edges.map(({ node }) =>
                     <PageContentItem key={node.fields.slug}>
-                        <PageContentSub />
-                        <PageContentMain>
-                            <PageContentBlock>
-                                <h3>{node.frontmatter.title}</h3>
-                                <span style={{ color: '#B5B5B5' }}>{node.frontmatter.date}</span>
-                            </PageContentBlock>
-                            <div style={{ width: '100%' }} dangerouslySetInnerHTML={{ __html: node.html}} />
-                        </PageContentMain>
+                        <PageContentBlock>
+                            <h3>{node.frontmatter.title}</h3>
+                            <span style={{ fontSize: '14px', fontWeight: '400', color: 'rgb(181,181,181)' }}>{node.frontmatter.date}</span>
+                        </PageContentBlock>
+                        <div style={{ width: '100%' }} dangerouslySetInnerHTML={{ __html: node.html}} />
                     </PageContentItem>
                 )}
             </PageContentWrapper>
